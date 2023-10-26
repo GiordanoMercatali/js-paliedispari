@@ -1,4 +1,26 @@
 # Exercises 26 / 10 / 2023
+
+<!-- Palindrome  -->
+## Exercise 1
+
+The program will ask the user to insert a word and it'll check if it's palindrome or not.
+
+### Solution
+
+#### Info
+
+1. Get the user's word
+
+#### Procedure
+
+1. Reverse the word and put it into a new String variable;
+2. Compare the two Strings.
+
+#### Output
+
+If the two String are equal, return "Palindrome".
+Otherwise return "NOT Palindrome".
+
 <!-- Even vs. Odd  -->
 ## Exercise 2
 
@@ -21,4 +43,4 @@ In the end, the program sums the numbers and calculates if the sum is odd or eve
 
 #### Output
 
-Print "You win" if the user guesses if the sum was odd or even correctly, or print "You lose" if not.
+Return "You win" if the user guesses if the sum was odd or even correctly, or print "You lose" if not.
