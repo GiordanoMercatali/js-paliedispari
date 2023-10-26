@@ -17,7 +17,7 @@ do{
 
 do{
     userNumber = parseInt(prompt("Choose a number between 1 and 5"));
-    if(!isNaN(userNumber)){
+    if(!isNaN(userNumber || userNumber < 1 || userNumber > 5)){
         choseNumber = true;
         console.log(userNumber, choseNumber);
     }
