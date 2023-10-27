@@ -17,7 +17,7 @@ reverseResult = reverseString(userWord);
 const isPalindrome = returnPalindrome(userWord, reversedWord);
 console.log(isPalindrome);
 
-function reverseString(stringToReverse, stringBeingReversed){
+function reverseString(stringToReverse){
     for(let i = stringToReverse.length - 1; i >= 0; i--){
         reversedWord += stringToReverse[i];
     }
